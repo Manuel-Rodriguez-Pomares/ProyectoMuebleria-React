@@ -1,4 +1,6 @@
 import ItemList from './ItemList'
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 const Item = (modelo,descripcion,precio) => {
@@ -6,7 +8,7 @@ const Item = (modelo,descripcion,precio) => {
   return (
     <>
      <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src="holder.js/100px180" />
+      <Card.Img variant="top" src="" />
       <Card.Body>
         <Card.Title>{modelo}</Card.Title>
         <Card.Text>

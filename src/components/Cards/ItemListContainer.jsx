@@ -1,7 +1,6 @@
-import { display, grid } from '@mui/system';
-import ItemCount from '../ItemCount/ItemCount';
-import ItemList from './ItemList';
 import React, {useEffect, useState } from 'react'
+import ItemList from './ItemList';
+
 
 const ItemListContainer = () => {
   const[products, setProduct]= useState([])
