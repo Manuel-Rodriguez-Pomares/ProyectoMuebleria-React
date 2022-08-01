@@ -12,7 +12,11 @@ const ItemCount = ( {stock, initial}) => {
   }  
  useEffect(()=>{    
     if (clickCount > 5) {
-        console.log('Disculpe, no se puede agregar mas de 5 bultos por producto')
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Legaste el maximo de productos posibles',
+      })
     }
  }, [clickCount])
   
