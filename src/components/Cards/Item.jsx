@@ -1,6 +1,6 @@
-import ItemList from './ItemList'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import ItemList from './ItemList'
 
 
 const Item = (modelo,descripcion,precio) => {
