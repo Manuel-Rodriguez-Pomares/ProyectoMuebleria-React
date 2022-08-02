@@ -3,9 +3,10 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import ItemList from './ItemList';
 
 
-const Item = (element) => {
+const Item = ({element}) => {
 
   return (
     <>
@@ -18,7 +19,7 @@ const Item = (element) => {
                 <Card.Title>{element.modelo}</Card.Title>
                 <Card.Text>{element.descripcion}</Card.Text>
                 <Button variant="primary">
-                  Añadir al carrito:{element.precio}
+                  Añadir al carrito: ${element.precio}
                 </Button>
               </Card.Body>
             </Card>
