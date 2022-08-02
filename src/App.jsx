@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import NavBar from './components/NavBar/Cart/NavBar/NavBar'
+import NavBar from './components/NavBar/NavBar';
 import ItemListContainer from './components/Cards/ItemListContainer';
 
 function App() {

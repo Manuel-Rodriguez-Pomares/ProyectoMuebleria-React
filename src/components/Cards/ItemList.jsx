@@ -1,5 +1,7 @@
 import React from 'react'
 import Item from './Item'
+import ItemListContainer from './ItemListContainer'
+
 
 
 
@@ -8,7 +10,7 @@ const ItemList = ({products}) => {
     <div>
      {
      products.map((element)=>
-     <Item key={element.id} modelo={element.modelo} descripcion={element.modelo} precio={element.precio} />
+     <Item key={element.id} element={element} />
      )  
      }
   </div>
